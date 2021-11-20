@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "965124280348",
+    "project_id": "characterrecognition47",
+    "storage_bucket": "characterrecognition47.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965124280348:android:b2c1d9377587ed4cfc8fd9",
+        "android_client_info": {
+          "package_name": "com.example.char_recognition_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965124280348-n4sbdvm1jcpja9ner2e2oo7acusislo9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxVltznBaR3LG7thV5GKaCdw_U3ItWgjI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965124280348-n4sbdvm1jcpja9ner2e2oo7acusislo9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
