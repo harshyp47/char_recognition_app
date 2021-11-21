@@ -22,16 +22,3 @@ def Image_Download():
     local_img = "img.jpeg"
     storage = firebase.storage()
     storage.child(my_img).download(filename=local_img,path=".")
-
-
-
-Image_Download()
-"""
-#Show Image 
-import cv2
-import matplotlib.pyplot as plt
-img = cv2.imread(local_img,0) 
-plt.imshow(img, cmap='gray')
-plt.show()
-"""
-

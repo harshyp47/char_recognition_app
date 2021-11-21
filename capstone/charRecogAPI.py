@@ -1,19 +1,27 @@
 from flask import Flask, request, jsonify
+from ImageDownload import Image_Download
+from recognitionfunction import recognitionfunction
 
 app = Flask(__name__)
 
 
-import random
 import time
+import cv2
+from matplotlib import pyplot as plt
+import numpy as np
 
 @app.route('/api',methods = ["GET"])
 def recognize():
-    
 
-    c = random.randint(1,100)
-     
+    print("Button Clicked!")
+    time.sleep(30)
+    Image_Download()
+    print("image downloaded")
+    IMAGE_PATH = 'img.jpeg'
+    text = recognitionfunction(IMAGE_PATH)
     d={}
-    d['Query'] = str("Harsh")+str(c)
+    print(text)
+    d['Query'] = str(text)
     return jsonify(d)
 
 if __name__ == "__main__":

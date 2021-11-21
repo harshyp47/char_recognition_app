@@ -207,5 +207,3 @@ class _UploadingImageToFirebaseStorageState extends State {
     );
   }
 }
-/*
-if request.auth != null*/
